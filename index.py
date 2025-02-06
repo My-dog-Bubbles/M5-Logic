@@ -63,7 +63,16 @@ def vowel_Num(word):
     for letter in word:
         if letter in vowel:
             amount +=1
-    return amount
-
+            print(amount)
 vowel_Num(userWord)
+
+# Challenge 4
+
+#A
+
+list = ["APPLE", "BANANA", "MANGO", "PINEAPPLE"]
+for i in range(len(list)):
+    print(list[i])
+    i+=1
+    
 
