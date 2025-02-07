@@ -1,3 +1,4 @@
+#Only do JS for now
 # Challenge 1:
 
 #A 
@@ -36,6 +37,14 @@ while a <= 5:
 
 #C
 
+a = 1 
+b = 1 
+num= input("Give me a number")
+while a<=num:
+    b*=a 
+    a+=1
+    print(b) 
+
 
 #Challenge 3
 
@@ -69,7 +78,6 @@ vowel_Num(userWord)
 # Challenge 4
 
 #A
-
 list = ["APPLE", "BANANA", "MANGO", "PINEAPPLE"]
 for i in range(len(list)):
     print(list[i])
