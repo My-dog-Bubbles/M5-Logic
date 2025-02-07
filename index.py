@@ -1,6 +1,5 @@
-#Only do JS for now
 # Challenge 1:
-
+'''
 #A 
 num = int(input("Give me a number: "))
 if num%2==0:
@@ -30,16 +29,17 @@ for i in range(1,11,1):
     print(i)
 
 #B
-a=1
-while a <= 5:
-    print(i)
-    a+=1
+print("2B")
+increment=1
+while increment <= 5:
+    print(increment)
+    increment+=1
 
 #C
 
 a = 1 
 b = 1 
-num= input("Give me a number")
+num= int(input("Give me a number:"))
 while a<=num:
     b*=a 
     a+=1
@@ -82,5 +82,25 @@ list = ["APPLE", "BANANA", "MANGO", "PINEAPPLE"]
 for i in range(len(list)):
     print(list[i])
     i+=1
-    
 
+#B
+students = {"Bianca":26, "Marcus":9, "Angel":77 }
+for student, grade in students.items():
+    print(f"{student} has a {grade}")
+'''
+#C
+a = int(input("Give me a number: "))
+b = int(input("Give me another number: "))
+c = int(input("Give me another number: "))
+d = int(input("Give me another number: "))
+e = int(input("Give me another number: "))
+f = int(input("Give me another number: "))
+g = int(input("Give me another number: "))
+h = int(input("Give me another number: "))
+highest = 0
+numbersArray = [[a,b,c],[d,e],[f,g,h]]
+for i in range(len(numbersArray)):
+    for x in range(len(numbersArray[i])):
+        if numbersArray[i][x]>highest:
+            highest = numbersArray[i][x]
+print(highest)
